@@ -51,7 +51,7 @@ Or manually create a job with the same structure:
    * DSL Scripts: `src/jobs/**/*Jobs.groovy`
    * Additional classpath: `src/main/groovy`
 * Publish JUnit test result report
-   * Test report XMLs: `build/test-results/**/*.xml`
+   * Test report XMLs: `build/test-results/**/*.xml` ...
 
 Note that starting with Job DSL 1.60 the "Additional classpath" setting is not available when
 [Job DSL script security](https://github.com/jenkinsci/job-dsl-plugin/wiki/Script-Security) is enabled.
